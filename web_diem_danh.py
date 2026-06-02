@@ -36,8 +36,8 @@ if not list_teachers: list_teachers = ["Chọn giáo viên...", "Cô Vương Th�
 if not list_students: list_students = ["Chọn học sinh...", "Tuyết Vy", "Học sinh khác"]
 
 # 3. Giao diện trang Web
-st.markdown("<h1 style='text-align: center; color: #1E88E5;'>🎓 EDUCATION TOWN</h1>", unsafe_style=True)
-st.markdown("<p style='text-align: center; gray;'>Hệ thống điểm danh giáo viên từ xa</p>", unsafe_style=True)
+st.markdown("<h1 style='text-align: center; color: #1E88E5;'>🎓 EDUCATION TOWN</h1>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; gray;'>Hệ thống điểm danh giáo viên từ xa</p>", unsafe_allow_html=True)
 st.write("---")
 
 # Tạo form nhập liệu bằng Dropdown/Selectbox (Bấm là chọn)
